@@ -1,0 +1,1 @@
+import {goatReducer} from "./goatReducer"
