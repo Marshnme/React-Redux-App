@@ -1,23 +1,30 @@
 import React, {useEffect}from "react";
 import {connect} from "react-redux";
 import {fetchGoats} from "../actions";
-import {Pics} from "./Pics";
+
 
 const GoatPics = props => {
     console.log(props)
 
         useEffect(() => {
-            fetchGoats();
+            props.fetchGoats();
         }, []);
 
 
     if(props.isFetching){
-        return <h2>Loading Goat for u</h2>
+        return <h2>Loading...</h2>
     }
     return (
+        <>
         <div>
             {props.error && <p>{props.error}</p>}
+            {props.goats.activity}
+            
         </div>
+        <div>
+            <button onClick={() => props.fetchGoats() }>new thingyy</button>
+        </div>
+        </>
     )
 }
 
@@ -31,5 +38,5 @@ const mapStateToProps = state => {
 
 export default connect(
     mapStateToProps,
-    {}
+    {fetchGoats}
 )(GoatPics)

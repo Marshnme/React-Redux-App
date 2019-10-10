@@ -1,7 +1,7 @@
 import {START_FETCHING, FETCH_SUCCESS, FETCH_FAILURE} from "../actions";
 
 const initialState = {
-    goats: [],
+    goats: {},
     isFetching: false,
     error: ""
 };
@@ -32,4 +32,6 @@ const initialState = {
                 return state;
         };
     };
+
+
 
