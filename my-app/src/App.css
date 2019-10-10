@@ -1,22 +1,84 @@
+
+/* *{
+  border:1px solid blue;
+} */
+
 .App {
   text-align: center;
+  font-size:62.5%;
+  height:100%;
+  width:100%;
 }
 
-.App-logo {
-  height: 40vmin;
+h1{
+  font-size:3rem;
+}
+p{
+  font-size:1.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+body{
+  background:#D8A7CA;
+}
+
+.position{
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items:center;
+  flex-flow:column;
+  /* height:60vh */
 }
 
-.App-link {
-  color: #09d3ac;
+
+.header-style{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:10vh;
+  margin:0;
+  background:#D4AFB9;
+}
+
+.ques{
+  font-weight:500;
+  display:flex;
+  justify-content: flex-end;
+  align-items:center;
+  flex-flow:column;
+  height:30vh
+}
+
+.activity-style-con{
+  display:flex;
+  justify-content: center;
+}
+
+.activity-style{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-weight:bold;
+  border:1px solid black;
+  border-radius: 20px;;
+  background:#8EDCE6;
+  padding-left:15px;
+  padding-right: 15px;
+  height:6vh;
+  
+}
+
+
+button{
+  font-size:1.5rem;
+  background:#8EDCE6;
+  border:none;
+  border:1px solid black;
+  border-radius: 5px;
+  
+
+}
+
+.smol{
+  font-size:.5rem;
 }
