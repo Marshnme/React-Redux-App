@@ -1,0 +1,84 @@
+
+/* *{
+  border:1px solid blue;
+} */
+
+.App {
+  text-align: center;
+  font-size:62.5%;
+  height:100%;
+  width:100%;
+}
+
+h1{
+  font-size:3rem;
+}
+p{
+  font-size:1.5rem;
+}
+
+
+body{
+  background:#087CA7;
+}
+
+.position{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-flow:column;
+  /* height:60vh */
+}
+
+
+.header-style{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:10vh;
+  margin:0;
+  background:#004385;
+}
+
+.ques{
+  font-weight:500;
+  display:flex;
+  justify-content: flex-end;
+  align-items:center;
+  flex-flow:column;
+  height:30vh
+}
+
+.activity-style-con{
+  display:flex;
+  justify-content: center;
+}
+
+.activity-style{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-weight:bold;
+  border:1px solid black;
+  border-radius: 20px;;
+  background:#8EDCE6;
+  padding-left:15px;
+  padding-right: 15px;
+  height:6vh;
+  
+}
+
+
+button{
+  font-size:1.5rem;
+  background:#8EDCE6;
+  border:none;
+  border:1px solid black;
+  border-radius: 5px;
+  
+
+}
+
+.smol{
+  font-size:.5rem;
+}
